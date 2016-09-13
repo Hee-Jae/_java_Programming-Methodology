@@ -1,0 +1,39 @@
+import java.util.Scanner;
+class E04{ 
+    void run(){
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("구구단의 출력모드(1: 홀수단, 2: 짝수단)를 입력하시오. : ");
+        int n = s.nextInt();
+
+        if(n%2==1){
+            for(int i=3;i<=9;i+=2){
+                for(int j=1;j<10;j++){
+                    System.out.printf("%d X %d = ",i,j);
+                    System.out.printf("%2d  ",i*j);
+                    if(j%3==0){
+                        System.out.println();
+                    }
+                }
+                System.out.println();
+            }
+        }
+        else{
+            for(int i=2;i<=8;i+=2){
+                for(int j=1;j<10;j++){
+                    System.out.printf("%d X %d = ",i,j);
+                    System.out.printf("%2d  ",i*j);
+                    if(j%3==0){
+                        System.out.println();
+                    }
+                }
+                System.out.println();
+            }
+        }
+    }
+
+    public static void main(String[] args) { 
+        E04 t = new E04();
+        t.run(); 
+    }
+}
