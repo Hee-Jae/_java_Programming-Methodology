@@ -1,5 +1,5 @@
 # Programming-Methodology_java
 
-Hanyang University(ERICA)_1-2
+It's for Hanyang University(ERICA) 1st grade's PROGRAMMIN METHODOLOGY class!
 
-HW in Programming Methodology, with prof.Kim
+2016-2, with prof.Kim
