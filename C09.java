@@ -1,4 +1,4 @@
-mport java.util.Scanner;
+import java.util.Scanner;
 class C09{
     void run(){
         Scanner s = new Scanner(System.in);
